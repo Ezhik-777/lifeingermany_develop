@@ -1,0 +1,16 @@
+{
+  "social": [
+    {
+      "icon": "instagram",
+      "link": "https://www.instagram.com"
+    },
+    {
+      "icon": "vk",
+      "link": "https://vk.com/"
+    },
+    {
+      "icon": "patreon",
+      "link": "https://www.patreon.com"
+    }
+  ]
+}

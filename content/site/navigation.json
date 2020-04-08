@@ -1,0 +1,40 @@
+{
+  "headerNavigation": [
+    {
+      "name": "Главная",
+      "link": "/",
+      "external": false
+    },
+    {
+      "name": "О-нас",
+      "link": "/about",
+      "external": false
+    },
+    {
+      "name": "Категории",
+      "link": "/category/getting-started",
+      "external": false
+    }
+  ],
+  "footerNavigation": [{
+      "name": "Последние посты",
+      "link": "/",
+      "external" : false
+    },
+    {
+      "name": "Instagram",
+      "link": "https://www.instagram.com",
+      "external": true
+    },
+    {
+      "name": "Patreon",
+      "link": "https://www.patreon.com",
+      "external": true
+    },
+    {
+      "name": "RSS",
+      "link": "/rss.xml",
+      "external": false
+    }
+  ]
+}

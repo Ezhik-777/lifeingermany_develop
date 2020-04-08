@@ -54,6 +54,36 @@ module.exports = {
           }
         }
       }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-160615809-1'
+      }
+    },
+    {
+      use: 'gridsome-plugin-robots',
+      options: {
+        host: 'https://www.lifeingermany.ru',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        exclude: ['/exclude-me'],
+        config: {
+          '/articles/*': {
+            changefreq: 'weekly',
+            priority: 0.5
+          },
+          '/about': {
+            changefreq: 'monthly',
+            priority: 0.7
+          }
+        }
+      }
     }
   ],
   transformers: {

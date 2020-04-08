@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://lifeingermany.ru/sitemap.xml
+Host: https://lifeingermany.ru

@@ -1,4 +1,4 @@
-import plugin_gridsome_plugin_tailwindcss_5 from "/Users/evgenij/Desktop/dev/lifeingermany/node_modules/gridsome-plugin-tailwindcss/gridsome.client.js"
+import plugin_gridsome_plugin_tailwindcss_5 from "/Users/evgenij/Desktop/dev/lifeingermany_develop/node_modules/gridsome-plugin-tailwindcss/gridsome.client.js"
 
 export default [
   {

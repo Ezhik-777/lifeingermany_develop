@@ -65,7 +65,12 @@
         </section>
       </div>
     </div>
-
+    <div class="post-tags container mx-auto relative py-10">
+    <vue-disqus
+    shortname="lifeingermany-ru"
+    :identifier="$page.blog.title"
+  ></vue-disqus>
+    </div>
     <section class="post-related bg-black text-gray-200 pt-10 border-b border-b-gray-900">
       <div class="container mx-auto">
         <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
@@ -74,6 +79,7 @@
         </div>
       </div>
     </section>
+
   </Layout>
 </template>
 

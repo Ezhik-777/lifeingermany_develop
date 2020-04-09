@@ -1,5 +1,6 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import VTooltip from 'v-tooltip'
+import VueDisqus from 'vue-disqus'
 
 import '~/assets/scss/main.scss';
 
@@ -23,4 +24,5 @@ export default function (Vue, {router, head, isClient}) {
     defaultPlacement: 'top-end',
     defaultClass: 'bg-black text-xs px-2 leading-normal py-1 rounded absolute text-gray-400 max-w-xs mb-1'
   })
+  Vue.use(VueDisqus)
 }

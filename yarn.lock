@@ -4477,6 +4477,11 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
+gridsome-plugin-disqus@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-disqus/-/gridsome-plugin-disqus-1.0.3.tgz#8ba2066f9683fd8c0c153ef6c341d8e826a65d7e"
+  integrity sha512-boU9zgvqA2AhNzh8cSbUm9iktoZfm8pJFk/hnVvACqKBmPnFjXzRUrfWY3B5xBldR1aw3rfuWQHbF++gqG+5xA==
+
 gridsome-plugin-robots@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/gridsome-plugin-robots/-/gridsome-plugin-robots-0.2.1.tgz#b4aa55f2959bbaa456acefaebed103c2340fe036"
@@ -6660,9 +6665,9 @@ object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
 object-path@^0.11.4:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.4.tgz#370ae752fbf37de3ea70a861c23bba8915691949"
-  integrity sha1-NwrnUvvzfePqcKhhwju6iRVpGUk=
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.5.tgz#d4e3cf19601a5140a55a16ad712019a9c50b577a"
+  integrity sha512-jgSbThcoR/s+XumvGMTMf81QVBmah+/Q7K7YduKeKVWL7N111unR2d6pZZarSk6kY/caeNxUDyxOvMWyzoU2eg==
 
 object-visit@^1.0.0:
   version "1.0.1"
